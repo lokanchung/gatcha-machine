@@ -126,10 +126,6 @@ impl App for GatchaApp {
 
                         let label = Label::new(RichText::new(str).color(text_color));
 
-                        if i % 5 == 0 {
-                            ui.end_row();
-                        }
-
                         Frame::default()
                             .fill(bg_color)
                             .inner_margin(Margin::same(5.0))
